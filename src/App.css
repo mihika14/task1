@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body{
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .task-description{
+  font-family:  'San Francisco', Helvetica, Arial, san-serif;
+  font-weight: 1000;
+  margin-left: 150px;
+} */
+
+.bottom-part {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+   text-align: center;
+   font-family:  'San Francisco', Helvetica, Arial, san-serif;
+   font-weight: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.upper-part {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-part {
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+  border: 1px solid black;
+  margin: 10px;
+  /* flex: 1; */
+}
+
+.box-2{
+  width: 100%;
+}
+
+.bottom-part{
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.task-description {
+  padding: 20px; 
+  width: 100%;
+  padding: 20px; 
+  resize: both; 
+  overflow: auto; 
+}
+
+.list-item {
+  margin-bottom: 10px; 
+}
+
+.list {
+  padding-left: 20px; 
 }
